@@ -1,0 +1,74 @@
+{
+    "peliculas": [
+        {
+            "id": 1,
+            "nombre": "Dune",
+            "imagen": "https://image.tmdb.org/t/p/w1280/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+            "año": "2021",
+            "genero":[
+                "Ciencia ficcion",
+                "Aventura"
+            ],    
+           
+            "duracion":"2h 35m"
+        },
+        {
+            "id": 2,
+            "nombre": "The Vault",
+            "imagen": "https://image.tmdb.org/t/p/w1280/kWhXubAiIcHW0xn5GThflqaKZqh.jpg",
+            "año": "2021",
+            "genero":[
+                "Accion",
+                "Suspenso"
+            ], 
+            "duracion":"1h 58m"
+        },
+        {
+            "id": 3,
+            "nombre": "Snake Eyes",
+            "imagen": "https://image.tmdb.org/t/p/w1280/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+            "año": "2021",
+            "genero":[
+                "Accion",
+                "Aventura"
+            ], 
+            "duracion":"2h 10m"
+        },
+        {
+            "id": 4,
+            "nombre": "Deathstroke",
+            "imagen": "https://image.tmdb.org/t/p/w1280/vFIHbiy55smzi50RmF8LQjmpGcx.jpg",
+            "año": "2020",
+            "genero": [
+                "Accion",
+                "Aventura"
+            ],
+            "duracion":"1h 27m"
+        },
+        {
+            "id": 5,
+            "nombre": "Zone 414",
+            "imagen": "https://image.tmdb.org/t/p/w1280/wIm5S6Blkb0qDMTGVu80VWSrQV1.jpg",
+            "año": "2021",
+            "genero": [
+                "Fantasia",
+                "Suspenso"
+            ], 
+            "duracion":"2h 19m"
+        },
+
+        {
+            "id": 6,
+            "nombre": "The Last Warrior",
+            "imagen": "https://image.tmdb.org/t/p/w1280/5VJSIAhSn4qUsg5nOj4MhQhF5wQ.jpg",
+            "año": "2021",
+            "genero": [
+                "Comedia",
+                 "fantasia",
+                 "Suspenso"
+            ],
+            "duracion": "2h 1m"
+        }
+        
+    ]
+}

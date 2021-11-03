@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Movie app</title>
+
+</head>
+<body>
+
+    <header>
+        <div id="page-wrapper">
+            <header id="header">
+                <div class="logo">
+                    <img id="header-img" src="./Imagenes/Bluck M.jpg" alt="Bluckbuster" />
+                </div>
+
+                <div class="movies" id="movies">
+                    <a href="#" class="activo">Todas</a>
+                    <a href="#">Mas vistas</a>
+                    <a href="#">Menos vistas</a>
+                    <a href="#">Registro</a>
+                </div>
+
+                <div>
+                    <input type="text" id="inputBuscar" class="search" placeholder="Search" />
+                    <button id="btnBuscar">Buscar</button>
+            </header>
+
+            <div class="container">
+
+                <ul class="slider">
+                    <li id="slide1">
+                        <img src="https://image.tmdb.org/t/p/w1280/d5NXSklXo0qyIYkgV94XAgMIckC.jpg" />
+                    </li>
+                    <li id="slide2">
+                        <img src="https://image.tmdb.org/t/p/w1280/3WfvjNWr5k1Zzww81b3GWc8KQhb.jpg" />
+                    </li>
+                    <li id="slide3">
+                        <img src="https://image.tmdb.org/t/p/w1280/vFIHbiy55smzi50RmF8LQjmpGcx.jpg" />
+                    </li>
+
+                    <li id="slide4">
+                        <img src="https://image.tmdb.org/t/p/w1280/jxdKa1467pktAILLbfw6kZyQlbW.jpg" />
+                    </li>
+                    <li id="slide5">
+                        <img src="https://image.tmdb.org/t/p/w1280/5VJSIAhSn4qUsg5nOj4MhQhF5wQ.jpg" />
+                    </li>
+                </ul>
+
+                <ul class="menu">
+                    <li>
+                        <a href="#slide1"></a>
+                    </li>
+                    <li>
+                        <a href="#slide2"></a>
+                    </li>
+                    <li>
+                        <a href="#slide3"></a>
+                    </li>
+                    <li>
+                        <a href="#slide4"></a>
+                    </li>
+                    <li>
+                        <a href="#slide5"></a>
+                    </li>
+                </ul>
+            </div>
+
+            
+            <section class="grid" id="grid">
+                <div class="item" data-categoria="mas_vistas" data-etiquetas="accion">
+
+                    <div class="item-contenido">
+                        <img src="./mas valoradas/Venom Let.jpg" alt="">
+                    
+
+                    <div class="item" data-categoria="menos_vistas" data-etiquetas="suspenso">
+
+                        <div class="item-contenido">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+
+            </section>
+        
+
+            <h2>Todas las peliculas</h2>
+
+            <main id="main"></main>
+
+            <template id="template-card">
+                <div class="movie">
+                    <img id="image" src="" alt="" width="50"></img>
+                    <div class="movie-info">
+                        <h3></h3>
+                    </div>
+                    <div class="overview">
+                        <span></span>
+                    </div>
+                </div>
+            </template>
+
+            <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+            <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+            <script src="./script/script.js"></script>
+
+
+</body>
+
+</html>
